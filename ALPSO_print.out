@@ -1,0 +1,127 @@
+                                     ======================
+                                        ALPSO 1.1 (Serial)
+                                     ======================
+
+Parameters:
+-------------------------------------------------------------------------------------------------
+Swarmsize           :       20    MaxOuterIters     :      200    Seed:       1523770659.98498011
+Cognitive Parameter :    2.000    MaxInnerIters     :        6    Scaling            :          1
+Social Parameter    :    1.000    MinInnerIters     :        6    Stopping Criteria  :          1
+Initial Weight      :    0.990    DynInnerIters     :        0    Number of Failures :         15
+Final Weight        :    0.550    StoppingIters     :        5    Number of Successes:          5
+
+Absolute Tolerance  : 1.00e-02    Number Initial Pos:        0    Neighbourhood Model:      gbest
+Relative Tolerance  : 1.00e-02    Initial Velocity  :        1    Neighbourhood Size :         40
+Inequality Tolerance: 1.00e-03    Maximum Velocity  :        2    Selfless           :          1
+Equality Tolerance  : 1.00e-03    Craziness Velocity: 1.00e-04    Fileout            :          1
+Global Distance     : 1.00e-01    Initial Penalty   :     1.00    File Name          :  ALPSO.out
+-------------------------------------------------------------------------------------------------
+
+
+================================================================================
+
+NUMBER OF ITERATIONS: 1
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 140
+
+OBJECTIVE FUNCTION VALUE:
+	F = 32.14010134709339
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.332611892971276		P(1) = -0.0136682707881954		P(2) = 0.01266223746987086	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 2
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 260
+
+OBJECTIVE FUNCTION VALUE:
+	F = 30.68461482604826
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.2571886802939583		P(1) = -0.01282938753766443		P(2) = 0.0123599956503832	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 3
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 380
+
+OBJECTIVE FUNCTION VALUE:
+	F = 30.5958823116582
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.241442064596652		P(1) = -0.0104333504509364		P(2) = 0.01027832981903879	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 4
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 500
+
+OBJECTIVE FUNCTION VALUE:
+	F = 30.52734252222947
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.2380592047124491		P(1) = -0.01422549092525653		P(2) = 0.01414108652512687	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 5
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 620
+
+OBJECTIVE FUNCTION VALUE:
+	F = 30.52087247977863
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.2369004944561901		P(1) = -0.01384016263677841		P(2) = 0.01380567350358191	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 6
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 740
+
+OBJECTIVE FUNCTION VALUE:
+	F = 30.51346747059326
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = -0.2374716448778872		P(1) = -0.01513310797867303		P(2) = 0.01513033633512542	
+
+================================================================================

@@ -1,0 +1,44 @@
+# reading the meshes 
+
+gfx read node Mesh0-8x8.exnode time 0
+gfx read node Mesh1-8x8.exnode time 1
+gfx read node Mesh2-8x8.exnode time 2
+gfx read node Mesh3-8x8.exnode time 3
+gfx read node Mesh4-8x8.exnode time 4
+gfx read node Mesh5-8x8.exnode time 5
+gfx read node Mesh6-8x8.exnode time 6
+gfx read node Mesh7-8x8.exnode time 7
+gfx read node Mesh8-8x8.exnode time 8
+gfx read node Mesh9-8x8.exnode time 9
+gfx read node Mesh10-8x8.exnode time 10
+gfx read node Mesh11-8x8.exnode time 11
+gfx read node Mesh12-8x8.exnode time 12
+gfx read node Mesh13-8x8.exnode time 13
+gfx read node Mesh14-8x8.exnode time 14
+gfx read node Mesh15-8x8.exnode time 15
+gfx read node Mesh16-8x8.exnode time 16
+gfx read node Mesh17-8x8.exnode time 17
+gfx read node Mesh18-8x8.exnode time 18
+gfx read node Mesh19-8x8.exnode time 19
+gfx read node Mesh20-8x8.exnode time 20
+gfx read node Mesh21-8x8.exnode time 21
+gfx read node Mesh22-8x8.exnode time 22
+gfx read node Mesh23-8x8.exnode time 23
+gfx read node Mesh24-8x8.exnode time 24
+gfx read elem Mesh24-8x8.exelem
+gfx read nodes axis.exregion
+gfx define faces
+gfx sel nodes 143,139,77,73,139,83
+gfx modify g_element "/" general clear;
+gfx modify g_element "/" lines domain_mesh1d coordinate Coordinate face all tessellation default LOCAL line line_base_size 0 select_on material default selected_material default_selected render_shaded;
+gfx modify g_element "/" points domain_nodes coordinate Coordinate tessellation default_points LOCAL glyph sphere size "50*50*50" offset 0,0,0 font default label cmiss_number label_offset 0,0,0 draw_selected material default selected_material default_selected render_shaded;
+gfx modify g_element /yaxis/ general clear;
+gfx modify g_element /yaxis/ surfaces domain_mesh2d coordinate Coordinate face all tessellation default LOCAL select_on material brown selected_material default_selected render_shaded;
+gfx modify g_element /xaxis/ general clear;
+gfx modify g_element /xaxis/ surfaces domain_mesh2d coordinate Coordinate face all tessellation default LOCAL select_on material brown selected_material default_selected render_shaded;
+gfx modify g_element /zaxis/ general clear;
+gfx modify g_element /zaxis/ surfaces domain_mesh2d coordinate Coordinate face all tessellation default LOCAL select_on material brown selected_material default_selected render_shaded;
+
+gfx modify window 1 background colour 1 1 1
+gfx cre win
+gfx edit scene
